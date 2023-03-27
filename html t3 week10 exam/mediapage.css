@@ -1,0 +1,77 @@
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightgoldenrodyellow;
+    }
+  
+    .product-card-wrapper {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+  }
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: blanchedalmond;
+    }
+    header {
+      display: none;
+    }
+    section#sidenav {
+      left: 0;
+    }
+    main {
+      transition: all 500ms;
+      margin-left: 250px;
+    }
+  
+    .product-card-wrapper {
+      grid-template-columns: 1fr;
+    }
+  
+    .product-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .product-detail {
+      grid-template-columns: auto 1fr auto;
+    }
+  
+    .review-wrapper {
+      grid-column: 1/span 2;
+      justify-content: flex-start;
+    }  
+}
+  
+@media only screen and (min-width: 992px) {
+  
+    body {
+      background-color: beige;
+    }
+  
+    .product-card-wrapper {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .product-preview img {
+  
+      max-width: 100%;
+      max-height: 100%;
+      background-position: center center;
+    }
+    
+}
+  
+@media only screen and (min-width: 1200px) {
+
+    body {
+      background-color: burlywood;
+    }
+  
+    .product-card-wrapper {
+      grid-template-columns: 1fr 1fr ;
+    }
+  
+  
+}
